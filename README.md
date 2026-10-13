@@ -97,9 +97,9 @@ $$
 
 The superconducting condensation energy per unit area uses the quasiclassical functional of Virtanen, Vargunin and Silaev:
 
-$$
-\frac{F_{sn}}{N_0} = \int dx\left\{\frac{|\Delta|^2}{\lambda} - \frac{\pi T}{2}\sum_{\omega_n}{\rm tr}\Big[(\omega_n + i\,\mathbf h\cdot\boldsymbol\sigma)\hat\tau_3\,\hat g + \hat\Delta\hat g - \frac{\hbar D}{4}(\partial_x\hat g)^2\Big]\right\}
-$$
+```math
+\frac{F_{sn}}{N_0} = \int dx \left\lbrace \frac{|\Delta|^2}{\lambda} - \frac{\pi T}{2}\sum_{\omega_n}\mathrm{tr}\Big[(\omega_n + i\,\mathbf{h}\cdot\boldsymbol{\sigma})\hat{\tau}_3\,\hat{g} + \hat{\Delta}\hat{g} - \frac{\hbar D}{4}(\partial_x\hat{g})^2\Big]\right\rbrace
+```
 
 The pairing constant λ is eliminated with the cutoff-consistent BCS identity:
 
